@@ -15,6 +15,8 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool >= 1:1.4.2-9
 Requires:	OpenGL
+# incompatible with glitz 0.2.x despite same soname
+Conflicts:	cairo < 0.3.0-1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description

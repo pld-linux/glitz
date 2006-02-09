@@ -2,7 +2,7 @@ Summary:	glitz - OpenGL compositing library
 Summary(pl):	glitz - biblioteka mieszania OpenGL
 Name:		glitz
 Version:	0.4.4
-Release:	1
+Release:	2
 License:	BSD-like
 Group:		Libraries
 Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.gz
@@ -10,7 +10,6 @@ Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.gz
 # it's not directory, don't add /
 URL:		http://www.freedesktop.org/Software/glitz
 BuildRequires:	OpenGL-devel
-BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool >= 1:1.4.2-9
@@ -49,7 +48,6 @@ Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 # for glitz-glx
 Requires:	OpenGL-devel
-Requires:	XFree86-devel
 
 %description devel
 Header files for glitz libraries.

@@ -7,6 +7,7 @@ License:	BSD-like
 Group:		Libraries
 Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.gz
 # Source0-md5:	56162ec6f5df9603c0e98391c64565f8
+Patch0:		%{name}-link.patch
 # it's not directory, don't add /
 URL:		http://www.freedesktop.org/Software/glitz
 BuildRequires:	OpenGL-devel
@@ -69,6 +70,7 @@ Statyczne biblioteki glitz.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__libtoolize}

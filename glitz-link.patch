@@ -1,0 +1,11 @@
+--- glitz-0.4.4/configure.in.orig	2005-07-04 12:33:00.000000000 +0200
++++ glitz-0.4.4/configure.in	2006-02-10 22:20:53.207536000 +0100
+@@ -93,7 +93,7 @@
+ 
+ dnl ===========================================================================
+ 
+-GLITZ_LIB='-L$(top_builddir)/src -lglitz'
++GLITZ_LIB='$(top_builddir)/src/libglitz.la'
+ GLITZ_INC='-I$(top_builddir)/src -I$(top_srcdir)/src'
+ 
+ AC_SUBST(GLITZ_LIB)

@@ -11,10 +11,10 @@ Patch0:		%{name}-link.patch
 # it's not directory, don't add /
 URL:		http://www.freedesktop.org/Software/glitz
 BuildRequires:	OpenGL-devel
-BuildRequires:	autoconf
+BuildRequires:	autoconf >= 2.59-9
 BuildRequires:	automake
 BuildRequires:	libtool >= 1:1.4.2-9
-Requires:	OpenGL
+BuildRequires:	xorg-lib-libX11-devel
 # incompatible with glitz 0.2.x despite same soname
 Conflicts:	cairo < 0.3.0-1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -49,6 +49,7 @@ Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 # for glitz-glx
 Requires:	OpenGL-devel
+Requires:	xorg-lib-libX11-devel
 
 %description devel
 Header files for glitz libraries.
@@ -96,7 +97,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING ChangeLog README
+%doc AUTHORS COPYING ChangeLog README TODO
 %attr(755,root,root) %{_libdir}/lib*.so.*.*.*
 
 %files devel

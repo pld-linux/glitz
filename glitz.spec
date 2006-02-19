@@ -1,12 +1,12 @@
 Summary:	glitz - OpenGL compositing library
 Summary(pl):	glitz - biblioteka mieszania OpenGL
 Name:		glitz
-Version:	0.4.4
-Release:	2
+Version:	0.5.3
+Release:	1
 License:	BSD-like
 Group:		Libraries
 Source0:	http://cairographics.org/snapshots/%{name}-%{version}.tar.gz
-# Source0-md5:	56162ec6f5df9603c0e98391c64565f8
+# Source0-md5:	9aefc7006ca74114bc012eec8797e5b2
 Patch0:		%{name}-link.patch
 # it's not directory, don't add /
 URL:		http://www.freedesktop.org/Software/glitz

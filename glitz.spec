@@ -1,5 +1,5 @@
 Summary:	glitz - OpenGL compositing library
-Summary(pl):	glitz - biblioteka mieszania OpenGL
+Summary(pl.UTF-8):   glitz - biblioteka mieszania OpenGL
 Name:		glitz
 Version:	0.5.6
 Release:	1
@@ -30,21 +30,21 @@ this imaging model. Glitz can be used as a stand-alone layer above
 OpenGL but is also designed to act as a backend for cairo, providing
 it with OpenGL accelerated output.
 
-%description -l pl
-Glitz to przeno∂na biblioteka grafiki 2D uøywaj±ca OpenGL-a do
-renderowania grafiki ze sprzÍtow± akceleracj±. Obs≥uguje wiele
-nowych moøliwo∂ci OpenGL-a, takich jak wydajny rendering poza ekranem
-przy uøyciu p-buforÛw. Renderowanie moøe byÊ wykonywane przez dowolne
-warstwy OpenGL-a dziÍki rozszerzalnemu systemowi backendÛw glitza.
-Glitz zosta≥ zaprojektowany aby pasowa≥ do semantyki rozszerzenia
-X Render i dostarcza ogÛlny sposÛb akceleracji tego modelu rysowania.
-Glitz moøe byÊ uøywany jako samodzielna warstwa ponad OpenGL, ale
-zosta≥ zaprojektowany takøe, øeby s≥uøy≥ jako backend dla cairo,
-udostÍpniaj±c akcelerowane wyj∂cie OpenGL.
+%description -l pl.UTF-8
+Glitz to przeno≈õna biblioteka grafiki 2D u≈ºywajƒÖca OpenGL-a do
+renderowania grafiki ze sprzƒôtowƒÖ akceleracjƒÖ. Obs≈Çuguje wiele
+nowych mo≈ºliwo≈õci OpenGL-a, takich jak wydajny rendering poza ekranem
+przy u≈ºyciu p-bufor√≥w. Renderowanie mo≈ºe byƒá wykonywane przez dowolne
+warstwy OpenGL-a dziƒôki rozszerzalnemu systemowi backend√≥w glitza.
+Glitz zosta≈Ç zaprojektowany aby pasowa≈Ç do semantyki rozszerzenia
+X Render i dostarcza og√≥lny spos√≥b akceleracji tego modelu rysowania.
+Glitz mo≈ºe byƒá u≈ºywany jako samodzielna warstwa ponad OpenGL, ale
+zosta≈Ç zaprojektowany tak≈ºe, ≈ºeby s≈Çu≈ºy≈Ç jako backend dla cairo,
+udostƒôpniajƒÖc akcelerowane wyj≈õcie OpenGL.
 
 %package devel
 Summary:	Header files for glitz libraries
-Summary(pl):	Pliki nag≥Ûwkowe bibliotek glitz
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe bibliotek glitz
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 # for glitz-glx
@@ -54,19 +54,19 @@ Requires:	xorg-lib-libX11-devel
 %description devel
 Header files for glitz libraries.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe bibliotek glitz.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe bibliotek glitz.
 
 %package static
 Summary:	Static glitz libraries
-Summary(pl):	Statyczne biblioteki glitz
+Summary(pl.UTF-8):   Statyczne biblioteki glitz
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static glitz libraries.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczne biblioteki glitz.
 
 %prep

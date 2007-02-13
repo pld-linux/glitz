@@ -1,5 +1,5 @@
 Summary:	glitz - OpenGL compositing library
-Summary(pl.UTF-8):   glitz - biblioteka mieszania OpenGL
+Summary(pl.UTF-8):	glitz - biblioteka mieszania OpenGL
 Name:		glitz
 Version:	0.5.6
 Release:	1
@@ -44,7 +44,7 @@ udostępniając akcelerowane wyjście OpenGL.
 
 %package devel
 Summary:	Header files for glitz libraries
-Summary(pl.UTF-8):   Pliki nagłówkowe bibliotek glitz
+Summary(pl.UTF-8):	Pliki nagłówkowe bibliotek glitz
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 # for glitz-glx
@@ -59,7 +59,7 @@ Pliki nagłówkowe bibliotek glitz.
 
 %package static
 Summary:	Static glitz libraries
-Summary(pl.UTF-8):   Statyczne biblioteki glitz
+Summary(pl.UTF-8):	Statyczne biblioteki glitz
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 

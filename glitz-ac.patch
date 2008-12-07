@@ -1,0 +1,26 @@
+diff -ur glitz-0.5.6.orig/configure.in glitz-0.5.6/configure.in
+--- glitz-0.5.6.orig/configure.in	2006-05-20 22:29:43.000000000 +0200
++++ glitz-0.5.6/configure.in	2008-12-07 16:45:36.789846127 +0100
+@@ -10,18 +10,18 @@
+ # libtool shared library version
+ 
+ # Increment if the interface has additions, changes, removals.
+-LT_CURRENT=1
++LIBT_CURRENT=1
+ 
+ # Increment any time the source changes; set to
+ # 0 if you increment CURRENT
+-LT_REVISION=0
++LIBT_REVISION=0
+ 
+ # Increment if any interfaces have been added; set to 0
+ # if any interfaces have been removed. removal has
+ # precedence over adding, so set to 0 if both happened.
+-LT_AGE=0
++LIBT_AGE=0
+ 
+-VERSION_INFO="$LT_CURRENT:$LT_REVISION:$LT_AGE"
++VERSION_INFO="$LIBT_CURRENT:$LIBT_REVISION:$LIBT_AGE"
+ AC_SUBST(VERSION_INFO)
+ 
+ dnl ===========================================================================
